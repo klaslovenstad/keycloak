@@ -6,7 +6,7 @@
     // import enum for error lookup
     AuthenticationFlowError = Java.type("org.keycloak.authentication.AuthenticationFlowError");
 
-    /**
+    /*
     * An example authenticate function.
     *
     * The following variables are available for convenience:
