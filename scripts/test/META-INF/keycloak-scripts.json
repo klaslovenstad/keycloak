@@ -1,8 +1,8 @@
 {
     "authenticators": [
         {
-            "name": "My Test Authenticator 1.1",
-            "fileName": "my-test-script-authenticator.js",
+            "name": "My Test Authenticator 1.2",
+            "fileName": "mytest12.js",
             "description": "My Test Authenticator from a JS file"
         }
     ]
