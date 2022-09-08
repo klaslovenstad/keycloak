@@ -29,7 +29,10 @@ function authenticate(context) {
     var username = user ? user.username : "anonymous";
     LOG.info(script.name + " trace auth for: " + username);
 
-	var personnummer = user.getattributestream('personnummer');
+    var efternamn = user.getLastName();
+	LOG.info(script.name + " user: " + username + ", efternamn:" + efternamn);
+
+	var personnummer = user.getAttributeStream('personnummer');
 	LOG.info(script.name + " user: " + username + ", personnummer:" + personnummer);
 
     context.success();
