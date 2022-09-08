@@ -33,7 +33,7 @@ function authenticate(context) {
 	LOG.info(script.name + " user: " + username + ", efternamn:" + efternamn);
 
 	var personnummer = user.getAttributeStream('personnummer');
-	LOG.info(script.name + " user: " + username + ", personnummer:" + personnummer);
+	LOG.info(script.name + " user: " + username + ", personnummer:" + personnummer.toString());
 
     context.success();
 }
