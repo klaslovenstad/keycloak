@@ -29,5 +29,8 @@ function authenticate(context) {
     var username = user ? user.username : "anonymous";
     LOG.info(script.name + " trace auth for: " + username);
 
+	var personnummer = user.getattribute('personnummer');
+	LOG.info(script.name + " user: " + username + ", personnummer:" + personnummer);
+
     context.success();
 }
